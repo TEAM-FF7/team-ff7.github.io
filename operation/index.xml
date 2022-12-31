@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Operation Demo on AR CAR RACING</title>
-    <link>https://example.org/operation/</link>
+    <link>https://team-ff7.github.io/operation/</link>
     <description>Recent content in Operation Demo on AR CAR RACING</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://example.org/operation/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://team-ff7.github.io/operation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. AR Racing Car</title>
-      <link>https://example.org/operation/car/</link>
+      <link>https://team-ff7.github.io/operation/car/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/operation/car/</guid>
+      <guid>https://team-ff7.github.io/operation/car/</guid>
       <description>Simple Demo! Operation To control this game, you should basically holding the board with the tilt angle shown in the gif.
 To restart the game, you can just shake the board.</description>
     </item>
     
     <item>
       <title>2. Development Clip</title>
-      <link>https://example.org/operation/workingdemo/</link>
+      <link>https://team-ff7.github.io/operation/workingdemo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/operation/workingdemo/</guid>
+      <guid>https://team-ff7.github.io/operation/workingdemo/</guid>
       <description>Drive Sensor Successfully Game Rendering Progress </description>
     </item>
     
