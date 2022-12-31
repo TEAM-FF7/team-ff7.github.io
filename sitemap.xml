@@ -2,51 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/</loc>
-    <lastmod>2022-12-30T15:13:36-05:00</lastmod>
+    <loc>https://example.org/operation/car/</loc>
   </url><url>
-    <loc>https://example.org/intro/</loc>
-    <lastmod>2022-12-30T15:13:36-05:00</lastmod>
+    <loc>https://example.org/description/components/</loc>
   </url><url>
-    <loc>https://example.org/intro/picture-test/</loc>
-    <lastmod>2022-12-30T15:13:36-05:00</lastmod>
+    <loc>https://example.org/description/developing-overview/</loc>
   </url><url>
-    <loc>https://example.org/tags/css/</loc>
-    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+    <loc>https://example.org/operation/workingdemo/</loc>
   </url><url>
-    <loc>https://example.org/tags/html/</loc>
-    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+    <loc>https://example.org/description/challenge/</loc>
   </url><url>
-    <loc>https://example.org/tags/markdown/</loc>
-    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+    <loc>https://example.org/description/reflection/</loc>
   </url><url>
-    <loc>https://example.org/intro/markdown-syntax-guide/</loc>
-    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+    <loc>https://example.org/description/advangtage/</loc>
   </url><url>
-    <loc>https://example.org/tags/math/</loc>
-    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+    <loc>https://example.org/description/pio/</loc>
   </url><url>
-    <loc>https://example.org/intro/math-typesetting/</loc>
-    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/intro/rich-text/</loc>
-    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/tags/shortcodes/</loc>
-    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/tags/</loc>
-    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/tags/themes/</loc>
-    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/tags/hugo/</loc>
-    <lastmod>2020-06-04T09:19:29-04:00</lastmod>
-  </url><url>
-    <loc>https://example.org/intro/example-post/</loc>
-    <lastmod>2020-06-04T09:19:29-04:00</lastmod>
+    <loc>https://example.org/description/future/</loc>
   </url><url>
     <loc>https://example.org/categories/</loc>
+  </url><url>
+    <loc>https://example.org/description/</loc>
+  </url><url>
+    <loc>https://example.org/</loc>
+  </url><url>
+    <loc>https://example.org/operation/</loc>
+  </url><url>
+    <loc>https://example.org/tags/</loc>
   </url>
 </urlset>

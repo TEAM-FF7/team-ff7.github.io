@@ -1,59 +1,96 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>codex</title>
+    <title>Homepage on AR CAR RACING</title>
     <link>https://example.org/</link>
-    <description>Recent content on codex</description>
+    <description>Recent content in Homepage on AR CAR RACING</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 30 Dec 2022 15:13:36 -0500</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Picture Test</title>
-      <link>https://example.org/intro/picture-test/</link>
-      <pubDate>Fri, 30 Dec 2022 15:13:36 -0500</pubDate>
+      <title>1. AR Racing Car</title>
+      <link>https://example.org/operation/car/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/intro/picture-test/</guid>
-      <description>{{ $image := resources.Get &amp;ldquo;images/1.png&amp;rdquo; }} </description>
+      <guid>https://example.org/operation/car/</guid>
+      <description>Simple Demo! Operation To control this game, you should basically holding the board with the tilt angle shown in the gif.
+To restart the game, you can just shake the board.</description>
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://example.org/intro/markdown-syntax-guide/</link>
-      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
+      <title>1. Environment &amp; Components</title>
+      <link>https://example.org/description/components/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/intro/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <guid>https://example.org/description/components/</guid>
+      <description>Coding Environment Tested on: ROG Zephyrus M16Intel Core i7-11800H16GB RAMWindows 10 21H2WSL2: Ubuntu 20.04.5 LTSBoard:Pico4MLSensors:build-in LCD (ST7735)build-in camera (hm01b0)LSM6DS33 Gryo IMU and Accel sensor Pico4ML Pico4ML is using RP2040 for the microprocessor, with an LCD screen drived by ST7735.
+Basically we are refering to the code to drive the camera and LCD display.
+LSM6DS33 6-DoF Accel + Gyro IMU The sensor is basically dirved by i2c.</description>
     </item>
     
     <item>
-      <title>Math Typesetting</title>
-      <link>https://example.org/intro/math-typesetting/</link>
-      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
+      <title>2. Developing Overview</title>
+      <link>https://example.org/description/developing-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/intro/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+      <guid>https://example.org/description/developing-overview/</guid>
+      <description>To start with, we are planning to implement a simple flappy bird game on the C platform, with one button to manipulate the flying of the bird. To achieve our plan, we first implemented the flappy bird game with microPython on the RP2040 chip. With the external LCD screen, we can successfully play this game with the python code.
+Then, the next step was to write up drives to transform the code into C and make it able to operate on the PICO4ML broad.</description>
     </item>
     
     <item>
-      <title>Rich Content</title>
-      <link>https://example.org/intro/rich-text/</link>
-      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
+      <title>2. Development Clip</title>
+      <link>https://example.org/operation/workingdemo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/intro/rich-text/</guid>
-      <description>Hugo ships with several Built-in Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
-YouTube Privacy Enhanced Shortcode Twitter Simple Shortcode “In addition to being more logical, asymmetry has the advantage that its complete appearance is far more optically effective than symmetry.”
-— Jan Tschichold pic.twitter.com/gcv7SrhvJb
-&amp;mdash; Graphic Design History (@DesignReviewed) January 17, 2019 Vimeo Simple Shortcode </description>
+      <guid>https://example.org/operation/workingdemo/</guid>
+      <description>Drive Sensor Successfully Game Rendering Progress </description>
     </item>
     
     <item>
-      <title>Welcome To Codex</title>
-      <link>https://example.org/intro/example-post/</link>
-      <pubDate>Thu, 04 Jun 2020 09:19:29 -0400</pubDate>
+      <title>3. Challenge We Ran into</title>
+      <link>https://example.org/description/challenge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/intro/example-post/</guid>
-      <description>The standard Lorem Ipsum passage &amp;ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <guid>https://example.org/description/challenge/</guid>
+      <description>One major problem we met during our development was the fps frequency. In the first attempt that we launch the program, we ran the chip at its normal frequency. However, the calculation speed does not provide optimal performance for the game, it runs pretty slowly and the movement is obviously discrete. Thus, we overclocked the chip to improve its performance. Finally, the fps has been stabled to 15 frames per second, which seems much more smooth for a visual game.</description>
+    </item>
+    
+    <item>
+      <title>4. Reflection on Our Design</title>
+      <link>https://example.org/description/reflection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/description/reflection/</guid>
+      <description>The biggest mistake that we made in our project is that we didn’t realize that the PICO4ML broad has its own IMU sensor embedded on the chip; Thus, it is totally unnecessary for us to implement an external drive for an additional chip.</description>
+    </item>
+    
+    <item>
+      <title>5. Advantage</title>
+      <link>https://example.org/description/advangtage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/description/advangtage/</guid>
+      <description>The advantage of our project is that we have to implement a control-free strategy, that the player doesn’t need to use any button to play the game; all he or she need to do is to flip over the board, then we can start the game and play! In addition, the game has great completion, which means that the game has its way to attract people to continue playing: who does not want to control his or her cars to rush on a busy street?</description>
+    </item>
+    
+    <item>
+      <title>6. PIO module</title>
+      <link>https://example.org/description/pio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/description/pio/</guid>
+      <description>We are basically using pio to drive the i2c, just like what we do in Lab2b. This is a more reliable and faster way to estabilish communication between sensors and MCU. We modified the code in Lab 2b, by configuring the registers within the IMU chips, we successfully received the serial data in the test program on QT2040 broad; then we transplanted the function onto our PICO4ML broad.
+We are also trying to use PIO to simulate the SPI function used in driving ST7735.</description>
+    </item>
+    
+    <item>
+      <title>7. Future Improvements</title>
+      <link>https://example.org/description/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/description/future/</guid>
+      <description>As a final project embryo, there is a lot we could improve to make the game more playable. For example, as we mentioned in the challenges sections, we can use external resources and pictures to replace the code-generated shape, to make the game more pretty. Also, we could implement more functions to the game.
+As an embedded program, we need also replace the communication protocol between LCD and the chip. Currently we are using GPIO to drive the spi protocol, which seems not fast enough and requires more operational effort; later we can also switch it to PIO ports, which could be faster and this would be beneficial for the performance of the program.</description>
     </item>
     
   </channel>
