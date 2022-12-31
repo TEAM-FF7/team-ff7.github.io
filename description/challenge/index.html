@@ -36,13 +36,13 @@
   <meta itemprop="name" content="3. Challenge We Ran into">
 <meta itemprop="description" content="One major problem we met during our development was the fps frequency. In the first attempt that we launch the program, we ran the chip at its normal frequency. However, the calculation speed does not provide optimal performance for the game, it runs pretty slowly and the movement is obviously discrete. Thus, we overclocked the chip to improve its performance. Finally, the fps has been stabled to 15 frames per second, which seems much more smooth for a visual game.">
 
-<meta itemprop="wordCount" content="80"><meta itemprop="image" content="https://team-ff7.github.io/digital-garden-logo.png"/>
+<meta itemprop="wordCount" content="105"><meta itemprop="image" content="https://team-ff7.github.io/digital-garden-logo.png"/>
 <meta itemprop="keywords" content="" />
 
   <meta itemprop="name" content="3. Challenge We Ran into">
 <meta itemprop="description" content="One major problem we met during our development was the fps frequency. In the first attempt that we launch the program, we ran the chip at its normal frequency. However, the calculation speed does not provide optimal performance for the game, it runs pretty slowly and the movement is obviously discrete. Thus, we overclocked the chip to improve its performance. Finally, the fps has been stabled to 15 frames per second, which seems much more smooth for a visual game.">
 
-<meta itemprop="wordCount" content="80"><meta itemprop="image" content="https://team-ff7.github.io/digital-garden-logo.png"/>
+<meta itemprop="wordCount" content="105"><meta itemprop="image" content="https://team-ff7.github.io/digital-garden-logo.png"/>
 <meta itemprop="keywords" content="" />
 </head><body class="flex relative h-full min-h-screen"><aside
   class="will-change-transform transform transition-transform -translate-x-full absolute top-0 left-0 md:relative md:translate-x-0 w-3/4 md:w-60 h-full min-h-screen p-3 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col gap-2.5 z-20 sidebar">
@@ -289,7 +289,7 @@ Then, the next step was to write up drives to transform the code into C and make
         <div
           class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
           We are basically using pio to drive the i2c, just like what we do in Lab2b. This is a more reliable and faster way to estabilish communication between sensors and MCU. We modified the code in Lab 2b, by configuring the registers within the IMU chips, we successfully received the serial data in the test program on QT2040 broad; then we transplanted the function onto our PICO4ML broad.
-We are also trying to use PIO to simulate the SPI function used in driving ST7735.
+When we fully grasp how i2c works, we can use pio to simulate an identical i2c function.
         </div>
       </a>
       
@@ -318,6 +318,12 @@ As an embedded program, we need also replace the communication protocol between 
       
 
       <p>One major problem we met during our development was the fps frequency. In the first attempt that we launch the program, we ran the chip at its normal frequency. However, the calculation speed does not provide optimal performance for the game, it runs pretty slowly and the movement is obviously discrete. Thus, we overclocked the chip to improve its performance. Finally, the fps has been stabled to 15 frames per second, which seems much more smooth for a visual game.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/_N3jQsn4uOs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>As we shown in the demo, we can find that the game is very smooth, and it can be controlled by a very comfortable sensitivity.</p>
 
     </article>
   </div>

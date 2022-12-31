@@ -61,7 +61,7 @@ Then, the next step was to write up drives to transform the code into C and make
       
       <guid>https://team-ff7.github.io/description/pio/</guid>
       <description>We are basically using pio to drive the i2c, just like what we do in Lab2b. This is a more reliable and faster way to estabilish communication between sensors and MCU. We modified the code in Lab 2b, by configuring the registers within the IMU chips, we successfully received the serial data in the test program on QT2040 broad; then we transplanted the function onto our PICO4ML broad.
-We are also trying to use PIO to simulate the SPI function used in driving ST7735.</description>
+When we fully grasp how i2c works, we can use pio to simulate an identical i2c function.</description>
     </item>
     
     <item>

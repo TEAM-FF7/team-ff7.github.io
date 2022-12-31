@@ -12,7 +12,7 @@
   </title>
 
   <meta name="description" content="We are basically using pio to drive the i2c, just like what we do in Lab2b. This is a more reliable and faster way to estabilish communication between sensors and MCU. We modified the code in Lab 2b, by configuring the registers within the IMU chips, we successfully received the serial data in the test program on QT2040 broad; then we transplanted the function onto our PICO4ML broad.
-We are also trying to use PIO to simulate the SPI function used in driving ST7735." /><meta name="generator" content="Hugo 0.109.0">
+When we fully grasp how i2c works, we can use pio to simulate an identical i2c function." /><meta name="generator" content="Hugo 0.109.0">
 
   <link rel="stylesheet" href="https://team-ff7.github.io/css/main.css" />
 
@@ -21,7 +21,7 @@ We are also trying to use PIO to simulate the SPI function used in driving ST773
 
   <meta property="og:title" content="6. PIO module" />
 <meta property="og:description" content="We are basically using pio to drive the i2c, just like what we do in Lab2b. This is a more reliable and faster way to estabilish communication between sensors and MCU. We modified the code in Lab 2b, by configuring the registers within the IMU chips, we successfully received the serial data in the test program on QT2040 broad; then we transplanted the function onto our PICO4ML broad.
-We are also trying to use PIO to simulate the SPI function used in driving ST7735." />
+When we fully grasp how i2c works, we can use pio to simulate an identical i2c function." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://team-ff7.github.io/description/pio/" /><meta property="og:image" content="https://team-ff7.github.io/digital-garden-logo.png"/><meta property="article:section" content="description" />
 
@@ -33,21 +33,21 @@ We are also trying to use PIO to simulate the SPI function used in driving ST773
 
 <meta name="twitter:title" content="6. PIO module"/>
 <meta name="twitter:description" content="We are basically using pio to drive the i2c, just like what we do in Lab2b. This is a more reliable and faster way to estabilish communication between sensors and MCU. We modified the code in Lab 2b, by configuring the registers within the IMU chips, we successfully received the serial data in the test program on QT2040 broad; then we transplanted the function onto our PICO4ML broad.
-We are also trying to use PIO to simulate the SPI function used in driving ST7735."/>
+When we fully grasp how i2c works, we can use pio to simulate an identical i2c function."/>
 
 
   <meta itemprop="name" content="6. PIO module">
 <meta itemprop="description" content="We are basically using pio to drive the i2c, just like what we do in Lab2b. This is a more reliable and faster way to estabilish communication between sensors and MCU. We modified the code in Lab 2b, by configuring the registers within the IMU chips, we successfully received the serial data in the test program on QT2040 broad; then we transplanted the function onto our PICO4ML broad.
-We are also trying to use PIO to simulate the SPI function used in driving ST7735.">
+When we fully grasp how i2c works, we can use pio to simulate an identical i2c function.">
 
-<meta itemprop="wordCount" content="245"><meta itemprop="image" content="https://team-ff7.github.io/digital-garden-logo.png"/>
+<meta itemprop="wordCount" content="277"><meta itemprop="image" content="https://team-ff7.github.io/digital-garden-logo.png"/>
 <meta itemprop="keywords" content="" />
 
   <meta itemprop="name" content="6. PIO module">
 <meta itemprop="description" content="We are basically using pio to drive the i2c, just like what we do in Lab2b. This is a more reliable and faster way to estabilish communication between sensors and MCU. We modified the code in Lab 2b, by configuring the registers within the IMU chips, we successfully received the serial data in the test program on QT2040 broad; then we transplanted the function onto our PICO4ML broad.
-We are also trying to use PIO to simulate the SPI function used in driving ST7735.">
+When we fully grasp how i2c works, we can use pio to simulate an identical i2c function.">
 
-<meta itemprop="wordCount" content="245"><meta itemprop="image" content="https://team-ff7.github.io/digital-garden-logo.png"/>
+<meta itemprop="wordCount" content="277"><meta itemprop="image" content="https://team-ff7.github.io/digital-garden-logo.png"/>
 <meta itemprop="keywords" content="" />
 </head><body class="flex relative h-full min-h-screen"><aside
   class="will-change-transform transform transition-transform -translate-x-full absolute top-0 left-0 md:relative md:translate-x-0 w-3/4 md:w-60 h-full min-h-screen p-3 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col gap-2.5 z-20 sidebar">
@@ -294,7 +294,7 @@ Then, the next step was to write up drives to transform the code into C and make
         <div
           class="text-sm  text-slate-400  line-clamp-2">
           We are basically using pio to drive the i2c, just like what we do in Lab2b. This is a more reliable and faster way to estabilish communication between sensors and MCU. We modified the code in Lab 2b, by configuring the registers within the IMU chips, we successfully received the serial data in the test program on QT2040 broad; then we transplanted the function onto our PICO4ML broad.
-We are also trying to use PIO to simulate the SPI function used in driving ST7735.
+When we fully grasp how i2c works, we can use pio to simulate an identical i2c function.
         </div>
       </a>
       
@@ -323,6 +323,11 @@ As an embedded program, we need also replace the communication protocol between 
       
 
       <p>We are basically using pio to drive the i2c, just like what we do in <a href="https://github.com/Dang0v/ese5190-2022-lab2b-esp/tree/main/lab/08_adps_protocol"  target="_blank" rel="noopener" >Lab2b</a>. This is a more reliable and faster way to estabilish communication between sensors and MCU. We modified the code in Lab 2b, by configuring the registers within the IMU chips, we successfully received the serial data in the test program on QT2040 broad; then we transplanted the function onto our PICO4ML broad.</p>
+<p><img src="/img/i2c.png" alt="i2c"></p>
+<p>When we fully grasp how i2c works, we can use pio to simulate an identical i2c function. And also, we can find the promblems of the example of pio-i2c in pico-example.</p>
+<p><img src="/img/i2cexample.png" alt="i2cex"></p>
+<p>Initialization</p>
+<p><img src="/img/pio.png" alt="pio"></p>
 <p>We are also trying to use PIO to simulate the SPI function used in driving ST7735. However, due to limited time, we did not make it.</p>
 <p>In addition, after exploring the rp2040 for an entire semester along with numerous sensors and components, we realized that strong enough portability is an important part of embedded systems or embedded programming. And PIO module is just perfect for this possibility. For example, in the first lab, we are trying to drive the WS2812 LED. We first read the datasheet and figure out what is the working principle, and then we programmed the IO port to meet the requirements. Thus, if possible, we can drive all the devices only if we have the correct &lsquo;rules&rsquo; by the PIO module.</p>
 <p>Also, PIO can provide stimulation to the GPIO functions like I2C, and SPI. This is a more efficient and reliable way to establish this communication method. Also, when we are in the process of finding a simulation method, we are having a better understanding of the working principle of these communication methods.</p>
